@@ -1,2 +1,3 @@
-!htdocs/index.html
-htdocs/
+htdocs/js
+htdocs/index.html
+node_modules
