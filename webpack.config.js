@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
   template: "./jsx/index.html",
-  filename: "index.html"
+  filename: "../index.html"
 });
 
 module.exports = {
@@ -15,9 +15,9 @@ module.exports = {
   },
   entry: path.resolve("jsx") + "/index.js",
   output: {
-    path: path.resolve("htdocs")+"/js",
+    path: path.resolve("htdocs")+"/js/",
     filename: "bundle.js",
-    publicPath: '/'
+    publicPath: '/js/'
   },
   module: {
     rules: [
