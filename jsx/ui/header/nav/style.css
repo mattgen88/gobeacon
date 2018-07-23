@@ -1,0 +1,23 @@
+.menu {
+	display: none;
+}
+.menu.open {
+	display: inherit;
+	position: fixed;
+	left: 0;
+	background-color: #D7CEC7;
+	width: 300px;
+	height: 100%;
+}
+.menu.open ul {
+}
+.menu.open ul li {
+	display: block;
+	border-top: solid 1px #FFF;
+	font-weight: bold;
+	padding: 10px;
+	font-weight: bold;
+	color: #000;
+	border-top: solid 1px #000;
+	cursor: pointer;
+}

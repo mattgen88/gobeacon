@@ -1,0 +1,20 @@
+.navContainer.open {
+	margin-left: 300px;
+}
+.navContainer {
+	background-color: #565656;
+	color: #FFF;
+}
+.navContainer h1 {
+	line-height: 40px
+}
+.navContainer .nav {
+	line-height: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 20px;
+	float: left;
+}
+.navContainer .menuLink {
+	text-align: center;
+}

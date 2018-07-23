@@ -7,6 +7,7 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
   filename: "../index.html"
 });
 
+
 module.exports = {
   devServer: {
     port: 3000,
@@ -21,7 +22,7 @@ module.exports = {
   },
   module: {
     rules: [
-      {
+       {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
