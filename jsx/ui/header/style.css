@@ -1,7 +1,10 @@
 .navContainer.open {
+	transition: margin-left .5s;
 	margin-left: 300px;
 }
 .navContainer {
+	transition: margin-left .5s;
+	margin-left: 0;
 	background-color: #565656;
 	color: #FFF;
 }

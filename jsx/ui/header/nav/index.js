@@ -39,7 +39,7 @@ export class NavItem extends Component {
 
 	render() {
 		return (
-			<li onClick={this.onClick}><a href={this.props.url}>{this.props.title}</a></li>
+			<li onClick={this.onClick}>{this.props.title}</li>
 		);
 	}
 }

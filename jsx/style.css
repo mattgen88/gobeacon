@@ -1,0 +1,12 @@
+.wrapper {
+	height: 100%;
+}
+.body {
+	margin-left: 0;
+	transition: margin-left .5s;
+}
+
+.body.open {
+	margin-left: 300px;
+	transition: margin-left .5s;
+}

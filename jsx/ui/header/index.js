@@ -6,6 +6,7 @@ class Header extends Component {
 
 	onNavOpen = (isOpened) => {
 		this.setState(prevState => ({open: isOpened}));
+		this.props.onNavOpen(isOpened);
 	};
 
 	constructor(props) {
@@ -17,7 +18,7 @@ class Header extends Component {
 
 	render() {
 		return (
-			<section className={`${this.state.open ? style.open : ""} ${style.navContainer}`}>
+			<section id="header" className={`${this.state.open ? style.open : ""} ${style.navContainer}`}>
 				<Nav className={style.nav} onNavOpen={this.onNavOpen}>
 					<NavItem url="/" title="Home" />
 					<NavItem url="/feeds" title="Feeds" />
